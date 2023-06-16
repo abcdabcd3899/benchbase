@@ -31,6 +31,7 @@ To clone and build BenchBase using the `mysql` profile,
 ```bash
 git clone --depth 1 git@github.com:abcdabcd3899/benchbase.git
 cd benchbase
+./mvnw clean package -P mysql
 mvn clean package -P mysql -DskipTests
 ```
 
